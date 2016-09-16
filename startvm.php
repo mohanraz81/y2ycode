@@ -10,7 +10,7 @@
     exec($cmd, $fullList, $status);
 if ($status !== 0)
 {
-    exit('command didn\'t finish as expected: '.$status);
+    exit('command didn\'t finished as expected: '.$status);
 }
 print_r($fullList);
 ?>
